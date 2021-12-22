@@ -1,0 +1,12 @@
+android_app_import {
+    name: "EtarPrebuilt",
+    overrides: [
+        "Etar",
+        "Calendar"
+    ],
+
+    apk: "Etar.apk",
+    certificate: "testkey",
+
+    product_specific: true,
+}
